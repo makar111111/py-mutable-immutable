@@ -19,15 +19,15 @@ collection_of_coins = {1, 2, 25}
 # write your code here
 sorted_variables = {
     "mutable": [
-        profile_info,  # Словари (dict) — изменяемый тип данных
-        marks,         # Списки (list) — изменяемый тип данных
-        my_favourite_films,
+        my_favourite_films,  # list
+        marks,               # dict
+        collection_of_coins  # set
     ],
     "immutable": [
-        lucky_number,  # Числа (int) — неизменяемый тип данных
-        pi,
-        one_is_a_prime_number,
-        name,
-        collection_of_coins,
-    ],
+        lucky_number,        # int
+        pi,                  # float
+        one_is_a_prime_number,  # bool
+        name,                # str
+        profile_info         # tuple
+    ]
 }
