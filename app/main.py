@@ -7,7 +7,6 @@ one_is_a_prime_number = False
 name = "Ruslan"
 collection_of_coins = (1, 2, 5)  # Кортеж - неизменяемый
 
-
 sorted_variables = {
     "mutable": [
         marks,
@@ -22,3 +21,4 @@ sorted_variables = {
         collection_of_coins,
     ],
 }
+
