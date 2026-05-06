@@ -1,32 +1,25 @@
-lucky_number = 777
+
+profile_info = ("Ruslan", 38)  # Кортеж (tuple) - неизменяемый
+marks = [5, 4, 5, 3]           # Список (list) - изменяемый
+my_favourite_films = ["Interstellar", "Inception"] # Список - изменяемый
+lucky_number = 7
 pi = 3.14
 one_is_a_prime_number = False
-name = "Richard"
-my_favourite_films = [
-    "The Shawshank Redemption",
-    "The Lord of the Rings: The Return of the King",
-    "Pulp Fiction",
-    "The Good, the Bad and the Ugly",
-    "The Matrix",
-]
-profile_info = ("michel", "michel@gmail.com", "12345678")
-marks = {
-    "John": 4,
-    "Sergio": 3,
-}
-collection_of_coins = {1, 2, 25}
+name = "Ruslan"
+collection_of_coins = (1, 2, 5) # Кортеж - неизменяемый
+
 
 sorted_variables = {
     "mutable": [
-        my_favourite_films,
         marks,
-        collection_of_coins
+        my_favourite_films,
     ],
     "immutable": [
+        profile_info,
         lucky_number,
         pi,
         one_is_a_prime_number,
         name,
-        profile_info
-    ]
+        collection_of_coins,
+    ],
 }
