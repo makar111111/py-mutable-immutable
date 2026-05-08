@@ -34,5 +34,3 @@ sorted_variables = {
         profile_info,
     ],
 }
-
-
